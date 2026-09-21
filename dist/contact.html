@@ -1,1 +1,46 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Contact Cocoa Gems to discuss a custom dessert order."><title>Contact Cocoa Gems</title><link rel="stylesheet" href="style.css"></head><body><header><div class="wrap nav"><a class="brand" href="index.html"><img src="assets/logo.jpg" alt="Cocoa Gems logo">Cocoa Gems</a><nav><a href="index.html">Home</a><a href="about.html">About</a><a href="gallery.html">Gallery</a><a class="active" href="contact.html">Contact</a></nav></div></header><main><section class="page-title"><div class="wrap"><div class="eyebrow">Contact</div><h1>Let’s make something sweet.</h1></div></section><section><div class="wrap split"><div><h2>Tell us about your celebration.</h2><p>For custom orders, share your date, guest count, and the treats you have in mind. Cocoa Gems will follow up with the next steps.</p><p><strong>Phone:</strong> <a href="tel:+16365156634">(636) 515-6634</a><br><strong>Email:</strong> <a href="mailto:hknudsvig567@gmail.com">hknudsvig567@gmail.com</a></p><p>Dye-free and gluten-free options are available.</p></div><form class="contact-box" action="mailto:hknudsvig567@gmail.com" method="post" enctype="text/plain"><h2>Send an inquiry</h2><p>This opens your email app with your message addressed to Cocoa Gems.</p><label for="name">Your name</label><input id="name" name="name" required><label for="email">Your email</label><input id="email" type="email" name="email" required><label for="details">What are you celebrating?</label><textarea id="details" name="details" required></textarea><button class="button" type="submit">Create email</button></form></div></section></main><footer><div class="wrap footer"><div><strong class="brand">Cocoa Gems</strong><p>Cottage Baker · Eureka, MO</p></div><div><a href="https://www.facebook.com/CocoaGemsforyou/">Facebook</a></div></div></footer></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Contact Cocoa Gems to discuss a custom dessert order.">
+  <title>Contact Cocoa Gems</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="index.html"><img src="assets/logo.jpg" alt="Cocoa Gems logo">Cocoa Gems</a>
+      <nav><a href="index.html">Home</a><a href="about.html">About</a><a href="gallery.html">Gallery</a><a href="reviews.html">Reviews</a><a class="active" href="contact.html">Contact</a></nav>
+    </div>
+  </header>
+  <main>
+    <section class="page-title"><div class="wrap"><div class="eyebrow">Contact</div><h1>Let’s make something sweet.</h1></div></section>
+    <section>
+      <div class="wrap split">
+        <div>
+          <h2>Tell us about your celebration.</h2>
+          <p>For custom orders, share your date, guest count, and the treats you have in mind. Cocoa Gems will follow up with the next steps.</p>
+          <p><strong>Phone:</strong> <a href="tel:+16365156634">(636) 515-6634</a><br><strong>Email:</strong> <a href="mailto:hknudsvig567@gmail.com">hknudsvig567@gmail.com</a></p>
+          <p>Dye-free and gluten-free options are available.</p>
+        </div>
+        <!-- When Formspree is set up, replace the action value with the endpoint from Formspree. -->
+        <form class="contact-box" action="mailto:hknudsvig567@gmail.com" method="post" enctype="text/plain" data-formspree-action="https://formspree.io/f/REPLACE_WITH_FORM_ID">
+          <input type="hidden" name="_subject" value="New Cocoa Gems website inquiry">
+          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
+          <h2>Send an inquiry</h2>
+          <p>Send the details below and Cocoa Gems will follow up.</p>
+          <label for="name">Your name</label>
+          <input id="name" name="name" required>
+          <label for="email">Your email</label>
+          <input id="email" type="email" name="email" required>
+          <label for="details">What are you celebrating?</label>
+          <textarea id="details" name="details" required></textarea>
+          <button class="button" type="submit">Send inquiry</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap footer"><div><strong class="brand">Cocoa Gems</strong><p>Cottage Baker · Eureka, MO</p></div><div><a href="https://www.facebook.com/CocoaGemsforyou/">Facebook</a></div></div></footer>
+</body>
+</html>
